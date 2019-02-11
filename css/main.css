@@ -78,12 +78,16 @@ footer {
   footer {
     background-color: #0B0500;
   }
+
+  .col-3 {
+    width: 50%;
+  }
   
 }
 
 
 /*---------- Desktops ----------*/
-@media (min-width: 1200px) {
+@media (min-width: 33.33%) {
   header {
     background-color: #A9FFCB;
   }
@@ -102,6 +106,10 @@ footer {
 
   footer {
     background-color: #AA4586;
+  }
+
+  .col-3 {
+    width: 33.3%;
   }
    
 }
